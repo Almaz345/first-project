@@ -959,7 +959,7 @@ tomorrow.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "200px";
+            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "yesinfo 3") {
