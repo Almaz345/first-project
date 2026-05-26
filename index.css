@@ -877,6 +877,7 @@ body {
 @media (max-width: 820px) {
     #body {
         overflow: hidden;
+        position: relative;
     }
     #header-content {
         top: 0;
