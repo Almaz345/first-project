@@ -878,7 +878,7 @@ body {
     #body {
         overflow: hidden;
         position: relative;
-        top: 300px;
+        top: 100px;
     }
     #header-content {
         top: 0;
