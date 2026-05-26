@@ -61,10 +61,9 @@ const relaw = document.querySelector(".relaw");
 
 posters.forEach(posters => {
     poster_content.forEach(poster_content => {
-        if(poster_content.dataset.set == "noinfo") {
+    if(poster_content.dataset.set == "noinfo") {
             poster_content.style.height = "80%";
         }
-
         if(posters.dataset.set == "yesinfo 1") {
             setTimeout(() => {
                 posters.style.position = "relative";
@@ -108,7 +107,6 @@ today.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "noinfo 2" || posters.dataset.set == "yesinfo 2") {
@@ -959,7 +957,6 @@ tomorrow.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "yesinfo 3") {
@@ -1026,7 +1023,6 @@ time1.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "yesinfo 4" || posters.dataset.set == "yesinfo 4") {
@@ -1093,7 +1089,6 @@ time2.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "yesinfo 5" || posters.dataset.set == "yesinfo 5") {
@@ -1160,7 +1155,6 @@ time3.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
         if(posters.dataset.set == "yesinfo 6" || posters.dataset.set == "yesinfo 6") {
@@ -1227,7 +1221,6 @@ time4.addEventListener("click", () => {
             setTimeout(() => {
                 posters.style.position = "relative";
             }, 0);
-            posters.style.top = "0";
             posters.style.left = "0";
         }
     relaw.style.left = time4.offsetLeft + "px";
